@@ -1,0 +1,51 @@
+/* 初始化 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: inherit;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* 容器 */
+.container {
+  width: 80vw;
+  height: 60vh;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 0 2cqi;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+}
+/* 玩家界面 */
+.content {
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 10vh;
+}
+.content p {
+  font-size: 50px;
+}
+.scroe {
+  margin-top: 20vh;
+  font-size: 50px;
+  border-radius: 30px;
+  border: 1px solid #000;
+}
+/* 操作界面 */
+.controll-content {
+  display: flex;
+  margin: 3vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.point {
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid #000;
+}
