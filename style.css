@@ -11,6 +11,9 @@ button {
   border-radius: 50%;
   padding: 10px;
 }
+button:hover {
+  cursor: pointer;
+}
 /* 容器 */
 .container {
   width: 80vw;
@@ -33,7 +36,7 @@ button {
 }
 .scroe {
   margin-top: 20vh;
-  font-size: 50px;
+  font-size: 40px;
   border-radius: 30px;
   border: 1px solid #000;
 }
@@ -45,7 +48,11 @@ button {
   justify-content: space-around;
 }
 .point {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   border: 1px solid #000;
+}
+/* 选中 */
+.choose {
+  background-color: red;
 }
