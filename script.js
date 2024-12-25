@@ -52,8 +52,10 @@ const restartGame = function () {
   userScore[1].textContent = GameData.p2Score;
   userScore[1].textContent = GameData.p2Score;
   point.textContent = `+${GameData.pointAdd}`;
-  userScore[0].classList.toggle("choose");
-  userScore[1].classList.toggle("choose");
+  if (!userScore[0].classList.contains("choose")) {
+    userScore[0].classList.toggle("choose");
+    userScore[1].classList.toggle("choose");
+  }
 };
 
 // 元素操作
